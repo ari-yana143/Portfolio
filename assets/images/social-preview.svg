@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Arriane portfolio social preview</title>
+  <desc id="desc">Soft pink portfolio preview with name and tagline</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFF7F9"/>
+      <stop offset="100%" stop-color="#F5D0DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="270" cy="200" r="140" fill="#F7D5DE" opacity="0.8"/>
+  <circle cx="1010" cy="520" r="140" fill="#E8B3C1" opacity="0.65"/>
+  <rect x="83" y="82" width="1034" height="466" rx="36" fill="rgba(255,255,255,0.72)" stroke="#EEDDE3"/>
+  <text x="120" y="250" fill="#30252C" font-family="Arial, sans-serif" font-size="35" letter-spacing="5">THIRD-YEAR IT STUDENT</text>
+  <text x="120" y="345" fill="#30252C" font-family="Georgia, serif" font-size="92">Arriane</text>
+  <text x="120" y="415" fill="#30252C" font-family="Arial, sans-serif" font-size="40">Building systems. Designing experiences. Telling stories.</text>
+  <circle cx="980" cy="248" r="118" fill="#F7DDE5"/>
+  <path d="M898 392c22-78 64-120 110-120s88 42 110 120H898Z" fill="#CE879B"/>
+  <circle cx="952" cy="220" r="36" fill="#E5B1C0"/>
+  <circle cx="1013" cy="220" r="36" fill="#E5B1C0"/>
+</svg>

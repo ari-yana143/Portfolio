@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | Arriane Antioquia Manalo</title>
+    <meta name="description" content="This page could not be found on the Arriane Antioquia Manalo portfolio website." />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .not-found-shell {
+        flex: 1;
+        display: grid;
+        place-items: center;
+        padding: 4rem 1rem;
+      }
+      .not-found-card {
+        max-width: 42rem;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid var(--light-pink-border);
+        border-radius: 2rem;
+        padding: 3rem 2rem;
+        box-shadow: var(--shadow-card);
+      }
+      .not-found-code {
+        font-size: clamp(4rem, 8vw, 7rem);
+        font-family: "Cormorant Garamond", serif;
+        color: var(--dusty-rose);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="not-found-shell">
+      <div class="not-found-card">
+        <div class="not-found-code">404</div>
+        <p class="section-kicker">Page not found</p>
+        <h1>Oops, this page is missing.</h1>
+        <p>
+          It looks like this page has moved or no longer exists. You can return to the homepage and continue exploring the portfolio.
+        </p>
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+      </div>
+    </main>
+  </body>
+</html>
