@@ -36,7 +36,7 @@ Update the placeholder content directly in `index.html`:
 - Projects and descriptions
 - Skills and categories
 - Experience timeline and education details
-- Writing samples and article content
+- Writing interests summary
 - Contact links and social URLs
 
 The profile photo is stored in `assets/images/profile-photo.jpg`. Replace that file to update the portrait, keeping the same filename, or change the image path in `index.html`.
@@ -137,5 +137,4 @@ Use the final public URL in your Facebook, Instagram, TikTok, and other social m
 ## Recommended next steps
 
 - Replace or add real project screenshots only when you have them available.
-- Replace the writing placeholders with your own published work.
 - Keep the portfolio updated as you complete coursework, projects, and experiences.

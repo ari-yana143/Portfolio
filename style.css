@@ -654,37 +654,35 @@ p {
   color: var(--muted-gray);
 }
 
-.writing-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
-}
-
-.writing-card,
-.writing-article {
+.writing-summary {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid var(--light-pink-border);
-  border-radius: 1.3rem;
-  padding: 1.4rem;
+  border-radius: 1.5rem;
+  padding: 2rem;
   box-shadow: var(--shadow-card);
 }
 
-.writing-card a {
-  display: inline-block;
-  margin-top: 1rem;
+.writing-summary p {
+  max-width: 52rem;
+  font-size: 1.08rem;
+}
+
+.writing-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}
+
+.writing-tags li {
+  padding: 0.5rem 0.85rem;
+  border: 1px solid rgba(206, 135, 155, 0.25);
+  border-radius: 999px;
+  background: rgba(245, 208, 218, 0.25);
   color: var(--deep-plum);
-  font-weight: 700;
-  border-bottom: 1px solid rgba(206, 135, 155, 0.8);
-}
-
-.article-stack {
-  display: grid;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.writing-article {
-  background: linear-gradient(180deg, rgba(255, 251, 252, 0.9), rgba(255, 255, 255, 0.9));
+  font-size: 0.86rem;
 }
 
 .timeline {
@@ -871,7 +869,6 @@ p {
   .project-grid,
   .data-layout,
   .skills-grid,
-  .writing-grid,
   .contact-shell,
   .footer-grid {
     grid-template-columns: 1fr 1fr;
@@ -887,17 +884,12 @@ p {
 
   .project-grid,
   .skills-grid,
-  .writing-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .highlight-grid {
     grid-template-columns: 1fr;
   }
 
   .project-card,
   .skill-card,
-  .writing-card,
   .data-card,
   .contact-shell {
     width: 100%;
@@ -955,10 +947,6 @@ p {
 
   .project-grid,
   .skills-grid,
-  .writing-grid {
-    grid-template-columns: 1fr;
-  }
-
   .timeline {
     gap: 1.2rem;
   }
@@ -1031,8 +1019,7 @@ p {
 [data-theme="dark"] .project-card,
 [data-theme="dark"] .skill-card,
 [data-theme="dark"] .data-card,
-[data-theme="dark"] .writing-card,
-[data-theme="dark"] .writing-article,
+[data-theme="dark"] .writing-summary,
 [data-theme="dark"] .timeline-content,
 [data-theme="dark"] .contact-shell,
 [data-theme="dark"] .contact-links a {
